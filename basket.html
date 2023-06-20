@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="basket.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-sz"> 
+                <h1>HOME</h1>
+                <div class="score">
+                    <h1 id="home-el">0</h1>
+                </div>
+                <button id="home1" onclick="plusOne()">+1</button>
+                <button id="home2" onclick="plusTwo()">+2</button>
+                <button id="home3" onclick="plusTre()">+3</button>
+            </div>
+            <img src="vs.png">
+            <div class="guest-sz">
+                <h1>GUEST</h1>
+                <div class="score">
+                    <h1 id="guest-el">0</h1>
+                </div>
+                <button id="guest1" onclick="plusOneG()">+1</button>
+                <button id="guest2" onclick="plusTwoG()">+2</button>
+                <button id="guest3" onclick="plusTreG()">+3</button>
+            </div>
+        </div>
+        <button id="replay" onclick="playAgain()">New Game</button>
+        <script src="basket.js"></script>
+    </body>
+</html>

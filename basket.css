@@ -1,0 +1,65 @@
+body{
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(238, 154, 90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.si.com/.image/t_share/MTY4MTI2NjE1ODY3NDk5OTA0/minnesota-timberwolves-target-center-floorjpg.jpg");
+    background-size: cover;
+}
+
+img{
+    width:100px;
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    background-color: rgb(47, 48, 113);
+    border-radius: 10px;
+    box-shadow: 7px 6px 0px black;
+
+}
+
+.home-sz{
+    text-align: center;
+    padding: 30px;
+}
+
+.guest-sz{
+    text-align: center;
+    padding: 30px;
+}
+
+.score{
+    border: solid aliceblue;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+}
+
+#home1, #home2, #home3, #guest1, #guest2, #guest3{
+    font-family: 'Russo One', sans-serif;
+    margin-top: 19px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(47, 48, 113) ;
+    border: 3px solid aliceblue;
+    border-radius: 5px;
+}
+
+#replay{
+    font-family: 'Russo One', sans-serif;
+    margin-top: -68px;
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(188, 53, 53) ;
+    border: solid black;
+    border-radius: 5px;
+}
